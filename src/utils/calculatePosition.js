@@ -1,6 +1,6 @@
-import getOffset from 'dom-helpers/query/offset';
-import getPosition from 'dom-helpers/query/position';
-import getScrollTop from 'dom-helpers/query/scrollTop';
+import getOffset from 'dom-helpers/offset';
+import getPosition from 'dom-helpers/position';
+import getScrollTop from 'dom-helpers/scrollTop';
 
 import ownerDocument from './ownerDocument';
 

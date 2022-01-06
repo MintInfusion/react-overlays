@@ -1,6 +1,7 @@
-import classes from 'dom-helpers/class';
-import css from 'dom-helpers/style';
-import getScrollbarSize from 'dom-helpers/util/scrollbarSize';
+import removeClass from 'dom-helpers/removeClass';
+import addClass from 'dom-helpers/addClass';
+import css from 'dom-helpers/css';
+import getScrollbarSize from 'dom-helpers/scrollbarSize';
 
 import isOverflowing from './utils/isOverflowing';
 import { ariaHidden, hideSiblings, showSiblings }
@@ -96,7 +97,7 @@ class ModalManager {
     }
 
     data.classes.forEach(
-      classes.addClass.bind(null, container));
+      addClass.bind(null, container));
 
     this.containers.push(container);
     this.data.push(data);
@@ -124,7 +125,7 @@ class ModalManager {
     // clean up the container
     if (data.modals.length === 0){
       data.classes.forEach(
-        classes.removeClass.bind(null, container));
+        removeClass.bind(null, container));
 
       if (this.handleContainerOverflow) {
         removeContainerStyle(data, container)

@@ -1,5 +1,5 @@
-import addEventListener from 'dom-helpers/events/on';
-import removeEventListener from 'dom-helpers/events/off';
+import addEventListener from 'dom-helpers/addEventListener';
+import removeEventListener from 'dom-helpers/removeEventListener';
 
 export default function (node, event, handler, capture) {
   addEventListener(node, event, handler, capture);

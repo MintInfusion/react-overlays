@@ -1,5 +1,5 @@
-import getOffset from 'dom-helpers/query/offset';
-import requestAnimationFrame from 'dom-helpers/util/requestAnimationFrame';
+import getOffset from 'dom-helpers/offset';
+import requestAnimationFrame from 'dom-helpers/animationFrame';
 import PropTypes from 'prop-types';
 import componentOrElement from 'prop-types-extra/lib/componentOrElement';
 import React from 'react';

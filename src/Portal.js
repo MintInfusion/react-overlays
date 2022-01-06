@@ -1,4 +1,4 @@
-import canUseDom from 'dom-helpers/util/inDOM';
+import canUseDom from 'dom-helpers/canUseDOM';
 import PropTypes from 'prop-types';
 import componentOrElement from 'prop-types-extra/lib/componentOrElement';
 import React from 'react';

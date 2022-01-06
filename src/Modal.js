@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 
 import activeElement from 'dom-helpers/activeElement';
-import contains from 'dom-helpers/query/contains';
-import canUseDom from 'dom-helpers/util/inDOM';
+import contains from 'dom-helpers/contains';
+import canUseDom from 'dom-helpers/canUseDOM';
 import PropTypes from 'prop-types';
 import componentOrElement from 'prop-types-extra/lib/componentOrElement';
 import deprecated from 'prop-types-extra/lib/deprecated';

@@ -25,7 +25,7 @@ import PositionMetadata from 'component-metadata-loader?pitch!react-overlays/Pos
 import RootCloseWrapperMetadata from 'component-metadata-loader?pitch!react-overlays/RootCloseWrapper';
 
 import * as ReactOverlays from 'react-overlays';
-import getOffset from 'dom-helpers/query/offset';
+import getOffset from 'dom-helpers/offset';
 
 import './styles.less';
 import injectCss from './injectCss';

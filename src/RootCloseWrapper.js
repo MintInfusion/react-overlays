@@ -1,4 +1,4 @@
-import contains from 'dom-helpers/query/contains';
+import contains from 'dom-helpers/contains';
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
